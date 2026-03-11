@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Dignidade Menstrual</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header class="header">
+    <div class="header-container">
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre o Programa</a></li>
+                <li><a href="#mapa">Mapa de Pontos</a></li>
+                <li><a href="#como-retirar">Informações</a></li>
+                <li><a href="#acessos">Portais Oficiais</a></li>
+                <li><a href="#pesquisa">Participe da Pesquisa</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+</header>
+
+<section id="inicio">
+<h2>Bem-vindo</h2>
+
+<p>
+Este site foi desenvolvido como parte de um projeto acadêmico de Atividade Extensionista
+do curso de Análise e Desenvolvimento de Sistemas. O objetivo da iniciativa é utilizar
+a tecnologia como ferramenta para ampliar o acesso à informação sobre o Programa
+Dignidade Menstrual, uma política pública do Governo Federal que busca garantir o acesso
+a absorventes higiênicos para pessoas em situação de vulnerabilidade social.
+</p>
+
+<p>
+Além de apresentar informações educativas sobre saúde e higiene menstrual, a plataforma
+também disponibiliza um mapa interativo com possíveis pontos de retirada de absorventes,
+como farmácias credenciadas e unidades de saúde. Dessa forma, o site pretende facilitar
+a localização desses pontos e contribuir para que mais pessoas tenham acesso ao benefício.
+</p>
+
+<p>
+O projeto tem como foco a comunidade do bairro Vargem do Bom Jesus, em Florianópolis,
+buscando promover inclusão digital, conscientização sobre dignidade menstrual e acesso
+a informações importantes para a saúde e o bem-estar da população.
+</p>
+
+<p>
+Por meio desta iniciativa, pretende-se demonstrar como a tecnologia pode ser utilizada
+para apoiar ações sociais, fortalecer políticas públicas e promover maior igualdade
+no acesso à informação.
+</p>
+
+</section>
+
+<section id="sobre">
+<h2>Sobre o Programa Dignidade Menstrual</h2>
+
+<p>
+O Programa Dignidade Menstrual é uma iniciativa do Governo Federal criada com o
+objetivo de garantir o acesso a absorventes higiênicos para pessoas em situação
+de vulnerabilidade social. A ação busca combater a chamada pobreza menstrual,
+que ocorre quando meninas, mulheres e pessoas que menstruam não possuem acesso
+adequado a produtos de higiene menstrual, informações sobre saúde ou condições
+adequadas para cuidar da própria higiene.
+</p>
+
+<p>
+A falta de acesso a absorventes pode causar diversos impactos na vida das
+pessoas, como dificuldades de frequentar a escola, participar de atividades
+sociais e manter a saúde e o bem-estar. Por isso, o programa foi criado para
+assegurar que esse item essencial de higiene seja disponibilizado gratuitamente
+para quem mais precisa.
+</p>
+
+<p>
+A distribuição dos absorventes é realizada por meio de farmácias credenciadas
+ao programa e também em algumas unidades de saúde. As pessoas beneficiadas
+podem retirar os produtos gratuitamente apresentando seus dados de identificação
+e estando cadastradas em programas sociais do governo.
+</p>
+
+<p>
+O Programa Dignidade Menstrual também tem como objetivo promover informação
+e conscientização sobre saúde menstrual, ajudando a reduzir o preconceito e
+os tabus que ainda existem em torno do tema. A iniciativa contribui para a
+promoção da saúde, da igualdade de gênero e da dignidade humana.
+</p>
+
+<p>
+Neste site, você poderá encontrar informações sobre o programa e localizar
+no mapa alguns dos pontos onde é possível realizar a retirada de absorventes
+gratuitamente.
+</p>
+
+</section>
+
+<section id="mapa">
+<h2>Pontos de retirada no norte da ilha</h2>
+<div id="map"></div>
+</section>
+
+<section id="como-retirar">
+
+<h2>Como se cadastrar e retirar absorventes</h2>
+
+<div class="passo">
+
+<button class="accordion">1. Verifique se você tem direito ao benefício</button>
+
+<div class="conteudo">
+<p>
+O Programa Dignidade Menstrual atende pessoas que menstruam entre
+10 e 49 anos inscritas no Cadastro Único (CadÚnico) e em situação
+de vulnerabilidade social.
+</p>
+
+<ul>
+<li>Renda familiar de até R$218 por pessoa</li>
+<li>Estudantes da rede pública de baixa renda</li>
+<li>Pessoas em situação de rua</li>
+</ul>
+</div>
+
+</div>
+
+
+<div class="passo">
+
+<button class="accordion">2. Estar inscrita no CadÚnico</button>
+
+<div class="conteudo">
+<p>
+Caso ainda não esteja cadastrada no CadÚnico, procure o CRAS
+(Centro de Referência de Assistência Social) ou a Secretaria de
+Assistência Social do município.
+</p>
+</div>
+
+</div>
+
+
+<div class="passo">
+
+<button class="accordion">3. Emitir autorização</button>
+
+<div class="conteudo">
+<p>
+A autorização pode ser emitida pelo aplicativo ou site do
+Meu SUS Digital utilizando sua conta Gov.br.
+</p>
+
+<p>
+Caso não tenha acesso à internet, procure uma Unidade Básica
+de Saúde (UBS) para receber ajuda na emissão da autorização.
+</p>
+</div>
+
+</div>
+
+
+<div class="passo">
+
+<button class="accordion">4. Ir até uma farmácia credenciada</button>
+
+<div class="conteudo">
+<p>
+Com a autorização em mãos, dirija-se a uma farmácia credenciada
+ao Programa Farmácia Popular.
+</p>
+
+<ul>
+<li>Leve documento com foto</li>
+<li>CPF</li>
+<li>Autorização do programa</li>
+</ul>
+
+</div>
+
+</div>
+
+
+<div class="passo">
+
+<button class="accordion">5. Retirar os absorventes</button>
+
+<div class="conteudo">
+<p>
+Após a validação dos dados, você poderá retirar gratuitamente
+até 40 absorventes por vez, quantidade suficiente para
+aproximadamente dois ciclos menstruais.
+</p>
+</div>
+
+</div>
+
+<section id="acessos">
+
+<h2>Acessar o Programa</h2>
+
+<p>
+Abaixo estão os principais portais oficiais onde você pode obter mais
+informações, realizar o cadastro ou emitir a autorização para retirada
+de absorventes pelo Programa Dignidade Menstrual.
+</p>
+
+<div class="links-programa">
+
+<a href="https://meususdigital.saude.gov.br" target="_blank" class="link-card">
+<h3>Meu SUS Digital</h3>
+<p>Acesse o portal para emitir a autorização do Programa Dignidade Menstrual.</p>
+</a>
+
+<a href="https://www.gov.br" target="_blank" class="link-card">
+<h3>Conta Gov.br</h3>
+<p>Faça login ou crie sua conta para acessar serviços digitais do governo.</p>
+</a>
+
+<a href="https://www.gov.br/saude" target="_blank" class="link-card">
+<h3>Ministério da Saúde</h3>
+<p>Veja informações oficiais sobre o Programa Dignidade Menstrual.</p>
+</a>
+
+<a href="https://www.gov.br/cidadania" target="_blank" class="link-card">
+<h3>Cadastro Único (CadÚnico)</h3>
+<p>Saiba como se cadastrar ou atualizar seus dados no CadÚnico.</p>
+</a>
+
+</div>
+
+</section>
+
+<section id="pesquisa">
+
+<h2>Pesquisa sobre o Programa Dignidade Menstrual</h2>
+
+<p>
+Este formulário é anônimo e tem como objetivo entender se a comunidade
+já conhece o Programa Dignidade Menstrual.
+</p>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdFrtwtJ-Ikb9nLM37LyitnZVtKlVwozUe1ek1K3BfHyfKCwA/viewform?embedded=true" width="640" height="1332" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+
+
+</form>
+
+<p id="mensagem"></p>
+
+</section>
+
+<button id="btnTopo" onclick="voltarTopo()">↑</button>
+
+<footer>
+<p>Projeto Dignidade Menstrual - 2026</p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

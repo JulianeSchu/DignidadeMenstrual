@@ -1,0 +1,282 @@
+body{
+font-family: 'Poppins', sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#c2185b;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav{
+background:#333;
+padding:10px 20px;
+border-radius:8px;
+width:fit-content;
+margin:auto;
+margin-top:446px; 
+box-shadow:0 3px 8px rgba(0,0,0,0.2);
+position:relative;
+z-index:1000;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+justify-content:center;
+align-items:center; 
+margin:0;
+padding:0;
+height:60px; 
+}
+
+nav li{
+display:flex;
+align-items:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+padding:10px 15px;
+display:flex;
+align-items:center; 
+height:100%;
+}
+
+nav a:hover{
+background:#c2185b;
+border-radius:4px;
+}
+
+p{
+text-align: justify;
+line-height: 1.6;
+}
+
+.header{
+background-image: url("img/banner-dignidade-menstrual.png");
+background-size: cover;
+background-position: center;
+height: 325px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: white;
+position: relative;
+}
+
+.header::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background: rgba(0,0,0,0.25);
+}
+
+.header-conteudo{
+position: relative;
+z-index: 2;
+}
+
+.header h1{
+font-size:48px;
+margin:0;
+}
+
+.header p{
+font-size:20px;
+margin-top:10px;
+}
+
+.menu{
+display:flex;
+justify-content:center;
+gap:35px;
+list-style:none;
+padding:0;
+margin:0;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+font-weight:500;
+padding:6px 12px;
+border-radius:20px;
+transition:all 0.3s;
+}
+
+.menu a:hover{
+background:#e91e63;
+}
+
+section{
+padding:30px;
+max-width:900px;
+margin:auto;
+margin-top: 70px;
+}
+
+h2{
+color:#c2185b;
+}
+
+#map{
+height:400px;
+margin-top:20px;
+border-radius:8px;
+}
+
+#btnTopo{
+position:fixed;
+bottom:30px;
+right:30px;
+background:#c2185b;
+color:white;
+border:none;
+padding:8px 15px;
+font-size:20px;
+border-radius:50%;
+cursor:pointer;
+display:none;
+box-shadow:0 2px 6px rgba(0,0,0,0.3);
+z-index: 9999;
+}
+
+#btnTopo:hover{
+background:#8e0e3b;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
+
+#como-retirar{
+max-width:900px;
+margin:auto;
+padding:30px;
+}
+
+#como-retirar h2{
+text-align:center;
+color:#c2185b;
+margin-bottom:30px;
+}
+
+.accordion{
+background:#c2185b;
+color:white;
+cursor:pointer;
+padding:15px;
+width:100%;
+border:none;
+text-align:left;
+font-size:16px;
+border-radius:6px;
+margin-top:10px;
+}
+
+.accordion:hover{
+background:#9c1447;
+}
+
+.conteudo{
+padding:15px;
+display:none;
+background:#f9f9f9;
+border-radius:6px;
+margin-bottom:10px;
+}
+
+.conteudo ul{
+padding-left:20px;
+}
+
+.links-programa{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+margin-top:20px;
+}
+
+.link-card{
+flex:1 1 200px;
+background:#f4f4f4;
+padding:20px;
+border-radius:8px;
+text-decoration:none;
+color:#333;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.link-card:hover{
+transform:translateY(-5px);
+background:#ffe4ec;
+}
+
+.link-card h3{
+color:#c2185b;
+margin-bottom:10px;
+}
+
+#pesquisa{
+max-width:700px;
+margin:auto;
+padding:30px;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+input, select, textarea{
+padding:10px;
+border-radius:5px;
+border:1px solid #ccc;
+font-size:14px;
+}
+
+textarea{
+resize:vertical;
+min-height:80px;
+}
+
+.radio-group{
+display:flex;
+gap:20px;
+}
+
+button{
+background:#c2185b;
+color:white;
+border:none;
+padding:12px;
+border-radius:6px;
+cursor:pointer;
+font-size:16px;
+}
+
+button:hover{
+background:#9c1447;
+}
+
+#mensagem{
+margin-top:10px;
+color:green;
+font-weight:bold;
+}
