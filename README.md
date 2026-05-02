@@ -1,4 +1,4 @@
-# Projeto Dignidade Menstrual - Tecnologia Aplicada à Inclusão Digital
+# Projeto Dignidade Menstrual - Site informativo sobre Dignidade Menstrual com mapa de pontos de retirada
 
 Este repositório contém o código-fonte e a documentação do projeto desenvolvido para a disciplina de Atividade Extensionista II do curso de CST em Análise e Desenvolvimento de Sistemas da UNINTER.
 
